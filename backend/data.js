@@ -1,4 +1,4 @@
-import bcrypt from "bcrypt"
+import bcrypt from "bcrypt";
 
 const data = {
 	users: [
@@ -17,7 +17,6 @@ const data = {
 	],
 	products: [
 		{
-			_id: "1",
 			name: "Dried Beef Liver",
 			category: "Dried treats",
 			image: "/images/beefliver.png",
@@ -29,7 +28,6 @@ const data = {
 			description: "High quality product",
 		},
 		{
-			_id: "2",
 			name: "Sweet Potato Fries",
 			category: "Dried treats",
 			image: "/images/sweetPotato.jpg",
@@ -41,7 +39,6 @@ const data = {
 			description: "High quality product",
 		},
 		{
-			_id: "3",
 			name: "Peanut Butter Biscuits",
 			category: "Dried treats",
 			image: "/images/peanut.jpg",
@@ -53,7 +50,6 @@ const data = {
 			description: "High quality product",
 		},
 		{
-			_id: "4",
 			name: "Raw Hide",
 			category: "Dried treats",
 			image: "/images/rawhide.jpg",
@@ -65,7 +61,6 @@ const data = {
 			description: "High quality product",
 		},
 		{
-			_id: "5",
 			name: "Dental Treats",
 			category: "Dried treats",
 			image: "/images/dental.jpg",
@@ -77,7 +72,6 @@ const data = {
 			description: "High quality product",
 		},
 		{
-			_id: "6",
 			name: "Salmon Filets",
 			category: "Dried treats",
 			image: "/images/salmon.jpg",
