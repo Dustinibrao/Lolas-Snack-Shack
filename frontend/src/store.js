@@ -20,6 +20,9 @@ const initalState = {
 		cartItems: localStorage.getItem("cartItems")
 			? JSON.parse(localStorage.getItem("cartItems"))
 			: [],
+		shippingAddress: localStorage.getItem("shippingAddress")
+			? JSON.parse(localStorage.getItem("shippingAddress")) //info stays when you go back a page on shipping screeen
+			: {},
 	},
 };
 const reducer = combineReducers({
